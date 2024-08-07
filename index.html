@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+    <html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>웹퍼블리셔 서예솔 포트폴리오</title>
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/response.css">
+        <link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT/fonts/static/woff2/SUIT.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    </head>
+    <body>
+		<!---- intro ---->
+        <div class="intro">
+            <div class="intro-wrap">
+                <div class="intro__content intro__content-top"><span class="intro__content-txt">Hello!</span></div>
+                <div class="intro__content intro__content-bottom"></div>
+            </div>
+        </div>
+        <!---- .intro 끝 ---->
+		<div class="cursor"></div>
+        <div class="cursor-pointer">
+            <span class="cursor-txt">Go!</span>
+        </div>
+        <!---- header ---->
+        <header class="header">
+            <div class="header__content">
+                <div class="header__logo">
+                    <a href="http://ypine.com/" class="header__logo-link">
+                        <img src="/img/header-name.svg" alt="seo yesol">
+                    </a>
+                </div>
+                <nav class="header__nav">
+                    <ul class="header__menu">
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link">HOME</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link">ABOUT</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link">PROJECT</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link">SKILL</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-menu-wrap">
+                    <button type="button" class="menu-btn" aria-label="navigation menu">
+                        <span class="menu-line menu-line_01"></span>
+                        <span class="menu-line menu-line_02"></span>
+                        <span class="menu-line menu-line_03"></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <!---- .header 끝 ---->
+        <main role="main" class="main">
+            <!---- main-home ---->
+            <section class="section main-home">
+                <div class="main-wrap">
+                    <div class="home__content">
+                        <div class="home__subtitle--wrap">
+                            <div class="home__subtitle">
+                                <h2>I’m</h2>
+                                <span class="home__subtitle--smile"><i><img src="/img/ico_smile.svg" alt="웃는 아이콘"></i></span>
+                            </div>
+                        </div>
+                        <div class="home__title">
+                            <h2>
+                                <span class="home__title-01">SEO YESOL</span>
+                                <span class="home__title-02">PORTFOLIO</span>
+                            </h2>
+                            <svg class="home__title--shape" viewBox="0 0 870 166" fill="none">
+                                <rect x="4" y="4" width="863" height="159" rx="80" stroke="url(#paint0_linear_144_326)" stroke-width="6"/>
+                                <defs>
+                                    <linearGradient id="paint0_linear_144_326" x1="0.447266" y1="82.9509" x2="869.447" y2="82.9509" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#03FE51"/>
+                                    <stop offset="1" stop-color="#307FF6"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="home__scroll">
+                        <img class="home__scroll-img" src="/img/ico_arrow.svg" alt="스크롤다운 아이콘">    
+                        <span class="home__scroll-txt">EXPLORE</span>
+                    </div>
+                </div>
+            </section>
+            <!---- .main-home 끝 ---->
+
+            <!---- main-About ---->
+            <section class="section main-about">
+                <div class="main-about-wrap">
+                    <div class="main-wrap">
+                        <div class="section__title-content">
+                            <h2 class="section__title">ABOUT</h2>
+                        </div>
+                        <div class="about__content">
+                            <div class="about__img">
+                                <div class="about__img-wrap">
+                                    <img src="/img/img_about.jpg" alt="서예솔 이미지">
+                                </div>
+                            </div>
+                            <div class="about__info">
+                                <h3 class="about__info-tit"><span>논리적</span>인 코드와 <br><span>효과적</span>인 표현을 구현하는 퍼블리셔</h3>
+                                <p class="about__info-txt">안녕하세요 퍼블리셔 서예솔입니다. <br>디자인만을 그대로 구현한 사이트보다 <br class="m-block">사용자 또한 고려한 웹사이트를 만들어 나가는 것이 제 목표입니다. <br>더 좋은 마크업을 위해 계속해서 고민하고 성장하는 퍼블리셔가 되겠습니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!---- .main-About 끝 ---->
+
+            <!---- main-project ---->
+            <section class="section main-project">
+                <div class="main-wrap">
+                    <div class="project__content">
+                        <div class="section__title-content">
+                            <h2 class="section__title">PROJECT</h2>
+                        </div>
+                        <div class="project_list-wrap">
+                            <ul class="project__list">
+                                <li class="project__item">
+                                    <div class="project__item-wrap">
+                                        <div class="project__item-num"><span>01</span></div>
+                                        <div class="project__item-thumbnail-content">
+                                            <div class="project__item-img" style="background-color: #3A85B1;">
+                                                <a href="http://www.coramdeo0213.com/main/main.php" class="project__item-img-link" target="blank">
+                                                    <img src="/img/coramdeo-logo.png" loading="lazy" alt="코람데오 로고">
+                                                </a>
+                                            </div>
+                                            <ul class="project__item-skill">
+                                                <li><span>Adaptive</span></li>
+                                                <li><span>AOS</span></li>
+                                                <li><span>jQuery</span></li>
+                                            </ul>
+                                        </div>
+                                        <div class="project__item-txt-content">
+                                            <h3 class="project__item-title">코람데오</h3>
+                                            <a href="http://www.coramdeo0213.com/main/main.php" class="project__item-link" target="blank">VIEW MORE</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="project__item">
+                                    <div class="project__item-wrap">
+                                        <div class="project__item-num"><span>02</span></div>
+                                        <div class="project__item-thumbnail-content">
+                                            <div class="project__item-img" style="background-color: #DCFE21;">
+                                                <a href="http://adwin123.cafe24.com" class="project__item-img-link" target="blank">
+                                                    <img src="/img/adwin-logo.png" loading="lazy" alt="애드윈 로고">
+                                                </a>
+                                            </div>
+                                            <ul class="project__item-skill">
+                                                <li><span>Responsive</span></li>
+                                                <li><span>GSAP</span></li>
+                                                <li><span>jQuery</span></li>
+                                            </ul>
+                                        </div>
+                                        <div class="project__item-txt-content">
+                                            <h3 class="project__item-title">애드윈</h3>
+                                            <a href="http://adwin123.cafe24.com" class="project__item-link" target="blank">VIEW MORE</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="project__item">
+                                    <div class="project__item-wrap">
+                                        <div class="project__item-num"><span>03</span></div>
+                                        <div class="project__item-thumbnail-content">
+                                            <div class="project__item-img" style="background-color: #68B82D;">
+                                                <a href="http://www.purne.co.kr/main/main.php" class="project__item-img-link" target="blank">
+                                                    <img src="/img/purne-logo.png" loading="lazy" alt="푸르네 로고">
+                                                </a>
+                                            </div>
+                                            <ul class="project__item-skill">
+                                                <li><span>Responsive</span></li>
+                                                <li><span>AOS</span></li>
+                                                <li><span>jQuery</span></li>
+                                            </ul>
+                                        </div>
+                                        <div class="project__item-txt-content">
+                                            <h3 class="project__item-title">푸르네</h3>
+                                            <a href="http://www.purne.co.kr/main/main.php" class="project__item-link" target="blank">VIEW MORE</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="project__item">
+                                    <div class="project__item-wrap">
+                                        <div class="project__item-num"><span>04</span></div>
+                                        <div class="project__item-thumbnail-content">
+                                            <div class="project__item-img" style="background-color: #E52420;">
+                                                <a href="https://www.storyitda.com/main/main.php" class="project__item-img-link" target="blank">
+                                                    <img src="/img/storyitda-logo.svg" loading="lazy" alt="스토리잇다 로고">
+                                                </a>
+                                            </div>
+                                            <ul class="project__item-skill">
+                                                <li><span>Responsive</span></li>
+                                                <li><span>GSAP</span></li>
+                                                <li><span>jQuery</span></li>
+                                            </ul>
+                                        </div>
+                                        <div class="project__item-txt-content">
+                                            <h3 class="project__item-title">스토리잇다</h3>
+                                            <a href="https://www.storyitda.com/main/main.php" class="project__item-link" target="blank">VIEW MORE</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="project__item">
+                                    <div class="project__item-wrap">
+                                        <div class="project__item-num"><span>05</span></div>
+                                        <div class="project__item-thumbnail-content">
+                                            <div class="project__item-img" style="background-color: #143471;">
+                                                <a href="https://www.docsole.co.kr/main/main.php" class="project__item-img-link" target="blank">
+                                                    <img src="/img/docsole-logo.svg" loading="lazy" alt="닥솔 로고">
+                                                </a>
+                                            </div>
+                                            <ul class="project__item-skill">
+                                                <li><span>Responsive</span></li>
+                                                <li><span>App</span></li>
+                                                <li><span>jQuery</span></li>
+                                            </ul>
+                                        </div>
+                                        <div class="project__item-txt-content">
+                                            <h3 class="project__item-title">닥솔</h3>
+                                            <a href="https://www.docsole.co.kr/main/main.php" class="project__item-link" target="blank">VIEW MORE</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="project__item">
+                                    <div class="project__item-wrap">
+                                        <div class="project__item-num"><span>06</span></div>
+                                        <div class="project__item-thumbnail-content">
+                                            <div class="project__item-img" style="background-color: #003A7D;">
+                                                <a href="http://www.ilsungpump.co.kr/main/main.php" class="project__item-img-link" target="blank">
+                                                    <img src="/img/ilsung-logo.png" loading="lazy" alt="일성펌프 로고">
+                                                </a>
+                                            </div>
+                                            <ul class="project__item-skill">
+                                                <li><span>Responsive</span></li>
+                                                <li><span>Fullpage</span></li>
+                                                <li><span>jQuery</span></li>
+                                            </ul>
+                                        </div>
+                                        <div class="project__item-txt-content">
+                                            <h3 class="project__item-title">일성펌프</h3>
+                                            <a href="http://www.ilsungpump.co.kr/main/main.php" class="project__item-link" target="blank">VIEW MORE</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="project__item">
+                                    <div class="project__item-wrap">
+                                        <div class="project__item-num"><span>07</span></div>
+                                        <div class="project__item-thumbnail-content">
+                                            <div class="project__item-img" style="background-color: #f17320;">
+                                                <a href="http://www.sunalways.co.kr/main/main.php" class="project__item-img-link" target="blank">
+                                                    <img src="/img/haeneul-logo.png" loading="lazy" alt="해늘 로고">
+                                                </a>
+                                            </div>
+                                            <ul class="project__item-skill">
+                                                <li><span>Responsive</span></li>
+                                                <li><span>GSAP</span></li>
+                                            </ul>
+                                        </div>
+                                        <div class="project__item-txt-content">
+                                            <h3 class="project__item-title">해늘</h3>
+                                            <a href="http://www.sunalways.co.kr/main/main.php" class="project__item-link" target="blank">VIEW MORE</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="project__item">
+                                    <div class="project__item-wrap">
+                                        <div class="project__item-num"><span>08</span></div>
+                                        <div class="project__item-thumbnail-content">
+                                            <div class="project__item-img" style="background-color: rgba(255,255,255,0.2);">
+                                                <a href="http://www.sepeng.co.kr/main/main.php" class="project__item-img-link" target="blank">
+                                                    <img src="/img/sep-logo.png" loading="lazy" alt="SEP 엔지니어링 로고">
+                                                </a>
+                                            </div>
+                                            <ul class="project__item-skill">
+                                                <li><span>Responsive</span></li>
+                                                <li><span>AOS</span></li>
+                                                <li><span>jQuery</span></li>
+                                            </ul>
+                                        </div>
+                                        <div class="project__item-txt-content">
+                                            <h3 class="project__item-title">SEP ENGINEERING</h3>
+                                            <a href="http://www.sepeng.co.kr/main/main.php" class="project__item-link" target="blank">VIEW MORE</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="project__item">
+                                    <div class="project__item-wrap">
+                                        <div class="project__item-num"><span>09</span></div>
+                                        <div class="project__item-thumbnail-content">
+                                            <div class="project__item-img" style="background-color: rgba(255,255,255,0.4);">
+                                                <a href="http://woorionetech.com/main/main.php" class="project__item-img-link" target="blank">
+                                                    <img src="/img/woorione-logo.svg" loading="lazy" alt="우리원테크 로고">
+                                                </a>
+                                            </div>
+                                            <ul class="project__item-skill">
+                                                <li><span>Responsive</span></li>
+                                                <li><span>AOS</span></li>
+                                            </ul>
+                                        </div>
+                                        <div class="project__item-txt-content">
+                                            <h3 class="project__item-title">우리원테크</h3>
+                                            <a href="http://woorionetech.com/main/main.php" class="project__item-link" target="blank">VIEW MORE</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="project__item">
+                                    <div class="project__item-wrap">
+                                        <div class="project__item-num"><span>10</span></div>
+                                        <div class="project__item-thumbnail-content">
+                                            <div class="project__item-img" style="background-color: #009944;">
+                                                <a href="http://seochun.kr/main/main.php" class="project__item-img-link" target="blank">
+                                                    <img src="/img/seochun-logo.png" loading="lazy" alt="서천건설 로고">
+                                                </a>
+                                            </div>
+                                            <ul class="project__item-skill">
+                                                <li><span>Responsive</span></li>
+                                                <li><span>AOS</span></li>
+                                            </ul>
+                                        </div>
+                                        <div class="project__item-txt-content">
+                                            <h3 class="project__item-title">서천건설</h3>
+                                            <a href="http://seochun.kr/main/main.php" class="project__item-link" target="blank">VIEW MORE</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="project__item">
+                                    <div class="project__item-wrap">
+                                        <div class="project__item-num"><span>11</span></div>
+                                        <div class="project__item-thumbnail-content">
+                                            <div class="project__item-img" style="background: rgba(255,255,255,1);">
+                                                <a href="https://www.designjob.co.kr" class="project__item-img-link" target="blank">
+                                                    <img src="/img/designjob-logo.png" loading="lazy" alt="디자인잡 로고">
+                                                </a>
+                                            </div>
+                                            <ul class="project__item-skill">
+                                                <li><span>Adaptive</span></li>
+                                            </ul>
+                                        </div>
+                                        <div class="project__item-txt-content">
+                                            <h3 class="project__item-title">디자인잡</h3>
+                                            <a href="https://www.designjob.co.kr" class="project__item-link" target="blank">VIEW MORE</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!---- .main-project 끝---->
+
+            <!---- main-skill ---->
+            <section class="section main-skill">
+                <div class="main-wrap">
+                    <div class="section__title-content">
+                        <h2 class="section__title">SKILL</h2>
+                    </div>
+                    <div class="skill__content">
+                        <ul class="skill__list">
+                            <li class="skill__list-item">
+                                <div class="skill__item-wrap"><span>HTML</span></div>
+                            </li>
+                            <li class="skill__list-item">
+                                <div class="skill__item-wrap"><span>CSS</span></div>
+                            </li>
+                            <li class="skill__list-item">
+                                <div class="skill__item-wrap"><span>Javascript</span></div>
+                            </li>
+                            <li class="skill__list-item">
+                                <div class="skill__item-wrap"><span>jQuery</span></div>
+                            </li>
+                        </ul>
+                        <div class="skill__bottom">
+                            <div class="skill__bottom-content"><span>SEO YE SOL</span></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!---- .main-skill 끝---->
+
+            <!---- main-end ---->
+            <section class="section main-end">
+                <div class="main-wrap">
+                    <div class="end__content">
+                        <ul class="">
+                            <li class="end-shape end-shape--s">
+                                <span class="end-shape-txt">Thank</span>
+                            </li>
+                            <li class="end-shape end-shape--s">
+                                <span class="end-shape-txt">You</span>
+                            </li>
+                            <li class="ico-cir--gray">&nbsp;</li>
+                            <li class="end-shape end-shape--m">
+                                <span class="end-shape-txt">for visiting</span>
+                            </li>
+                            <li class="ico-cir--gradient">&nbsp;</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!---- .main-end 끝---->
+        </main>
+        <footer class="footer">
+            <div class="footer__content">
+                <p class="footer__copy">&#169; 2024 YPINE</p>
+            </div>
+        </footer>
+        <script src="./js/script.js" type="module"></script>
+        <!-- <script src="./js/mobileScript.js"></script>
+        <script src="./js/pcScript.js"></script> -->
+    </body>
+</html>
